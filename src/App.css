@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(40, 221, 182);
+}
+.textarea1,
+.marked {
+  width: 500px;
+  height: 400px;
+  color: aliceblue;
+  border: 0.5px solid #746e6e;
+  background-color: rgb(23, 23, 24);
+  padding: 5px;
+  overflow: auto;
+  -webkit-box-shadow: -30px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -30px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -30px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0px 34px 34px 34px;
+  -moz-border-radius: 0px 34px 34px 34px;
+  -webkit-border-radius: 0px 34px 34px 34px;
+  border: 5px solid #000000;
+}
+.textarea1 {
+  margin-left: 8%;
+  margin-top: 5%;
+  resize: none;
+}
+.text {
+  height: 6px;
+}
+.marked {
+  margin-left: 55%;
+  margin-top: -417px;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+}
