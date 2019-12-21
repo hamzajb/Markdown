@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 class App extends Component {
   state = {
@@ -7,27 +8,24 @@ class App extends Component {
   };
   render() {
     return (
-      <div>
-        <center>
-          <div className="text">
-            <h1>Markdown by Jebrane</h1>
+      <div className="container">
+        <div className=" header">
+          <h1>Markdown by Jebrane</h1>
+          <hr></hr>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            <textarea
+              className="textarea1"
+              value={this.state.value}
+              onChange={e => this.setState({ value: e.target.value })}
+            ></textarea>
           </div>
-          <div className="a">
-            <a
-              href="https://www.markdownguide.org/basic-syntax/"
-              target="_blank"
-            >
-              Click for help
-            </a>
+
+          <div className="col marked">
+            <ReactMarkdown source={this.state.value}></ReactMarkdown>
           </div>
-        </center>
-        <textarea
-          className="textarea1"
-          value={this.state.value}
-          onChange={e => this.setState({ value: e.target.value })}
-        ></textarea>
-        <div className="marked">
-          <ReactMarkdown source={this.state.value}></ReactMarkdown>
         </div>
       </div>
     );

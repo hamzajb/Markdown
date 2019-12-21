@@ -19,22 +19,14 @@ body {
   border: 5px solid #000000;
 }
 .textarea1 {
-  margin-left: 8%;
-  margin-top: 5%;
   resize: none;
 }
 
 .marked {
-  margin-left: 55%;
-  margin-top: -417px;
   -moz-appearance: textfield-multiline;
   -webkit-appearance: textarea;
 }
-a {
-  color: #000000;
-  margin-left: 70%;
-}
-
-.a {
-  margin-top: -3.3%;
+.header {
+  text-align: center;
+  padding: 20px;
 }
