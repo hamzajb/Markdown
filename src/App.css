@@ -23,12 +23,18 @@ body {
   margin-top: 5%;
   resize: none;
 }
-.text {
-  height: 6px;
-}
+
 .marked {
   margin-left: 55%;
   margin-top: -417px;
   -moz-appearance: textfield-multiline;
   -webkit-appearance: textarea;
+}
+a {
+  color: #000000;
+  margin-left: 70%;
+}
+
+.a {
+  margin-top: -3.3%;
 }

@@ -12,6 +12,14 @@ class App extends Component {
           <div className="text">
             <h1>Markdown by Jebrane</h1>
           </div>
+          <div className="a">
+            <a
+              href="https://www.markdownguide.org/basic-syntax/"
+              target="_blank"
+            >
+              Click for help
+            </a>
+          </div>
         </center>
         <textarea
           className="textarea1"
