@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <center>
           <div className="text">
-            <h1>Markdown by Jebrane & Rebbah</h1>
+            <h1>Markdown by Jebrane</h1>
           </div>
         </center>
         <textarea
